@@ -21,6 +21,7 @@ import com.openkm.bean.form.FormElement;
 import com.openkm.bean.form.Input;
 import com.openkm.bean.form.Option;
 import com.openkm.bean.form.Select;
+import com.openkm.core.AccessDeniedException;
 import com.openkm.core.DatabaseException;
 import com.openkm.core.NoSuchGroupException;
 import com.openkm.core.ParseException;
@@ -175,6 +176,8 @@ public class AlertExpirationNotification {
 		} catch (TemplateException e) {
 			e.printStackTrace();
 		} catch (PrincipalAdapterException e) {
+			e.printStackTrace();
+		} catch (AccessDeniedException e) {
 			e.printStackTrace();
 		}
 		
