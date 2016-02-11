@@ -207,7 +207,6 @@ public class ExpirationNotification {
 			e.printStackTrace();	
 		}
 
-		
 		return "";
 	}
 }
