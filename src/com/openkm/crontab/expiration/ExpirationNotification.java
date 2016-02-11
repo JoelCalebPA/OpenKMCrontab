@@ -204,8 +204,9 @@ public class ExpirationNotification {
 		} catch (PrincipalAdapterException e) {
 			e.printStackTrace();
 		} catch (AutomationException e) {
-			e.printStackTrace();
+			e.printStackTrace();	
 		}
+
 		
 		return "";
 	}
