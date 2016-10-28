@@ -1,15 +1,15 @@
 -- SAMPLES
 -----------
 CrontabTest -> simple crontab 
-CrontabImporterTest -> import all pdf files from c:\import to /okm:root/import 
-InitialNotification -> inmediatly notify ( crontab executed each minute ) after has been added expiration to document
+CrontabImporterTest -> import all PDF files from "/home/openkm/Development/portable/import" into "/okm:root/import" 
+InitialNotification -> immediately notify ( crontab executed each minute ) after has been added expiration to document
 AlertExpirationNotification -> notify document will expire soon ( crontab executed at night always after ExpirationNotification )
 ExpirationNotification -> mark documents as expired and notify ( execute at night always before AlertExpirationNotification
 
 -- RESOURCES
 -----------
 expiration_metadata.sql -> define database metadata table called group and register configuration parameters ( already executed, not need to execute again )
-PropertyGroup.xml -> property groupdefinition needed by expiration ( yet registered, not need to register again )
+PropertyGroup.xml -> property group definition needed by expiration ( yet registered, not need to register again )
 
 -- Instructions to create jar file:
 ------------------------------------

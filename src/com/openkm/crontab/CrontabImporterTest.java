@@ -22,7 +22,7 @@ import com.openkm.extension.core.ExtensionException;
 import com.openkm.module.db.stuff.DbSessionManager;
 
 public class CrontabImporterTest {
-	public static final String FILE_SYSTEM_FOLDER = "c:/import";
+	public static final String FILE_SYSTEM_FOLDER = "/home/openkm/Development/portable/import";
 	public static final String FOLDER_UUID = "ebcd16a2-38f3-4a75-8aff-80a45662d191";
 	
     private static StringBuffer mailResult = new StringBuffer();
